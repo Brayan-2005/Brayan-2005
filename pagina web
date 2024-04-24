@@ -1,0 +1,210 @@
+<!DOCTYPE html><html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords"
+    content="desarrollo web,instalacion de redes,soporte tecnico,administracion,servicio de redes,diseño">
+    <meta name="description" content="pagina empresarial de Digital Cherrys Mexico">
+    <meta name="author" content="Digital Cherrys">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  
+  
+
+  <title>pagina web </title>
+</head>
+
+<body>
+  <section id="navegacion">
+    <nav class="navbar navbar-expand-xl navbar.light fixed-top" style="background-color:rgb(21, 171, 231);">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white mb-2" href="#">diseño de paginas web</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#">
+            </li>
+            <svg class="bi" width="32" height="32" fill="currentColor">
+              <use xlink:href="library/icons/bootstrap-icons.svg#heart-fill" />
+            </svg>inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white menuprincipal" href="#">Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white menuprincipal" href="#">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white menuprincipal" href="#">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white menuprincipal" href="#">Contactos</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link text-white " href="#">Clientes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Ayuda</a>
+              </li>
+            </ul>
+             <a class="nav-link text-white text-center" href="#">Contactos</a>
+          </span>
+        </div>
+      </div>
+    </nav>
+    </div>
+    </div>
+  </section>
+  <section id="nosotros">
+    <div class="row">
+      <div class="col-ms-12 col-md-6 col-lg-6 mb-5">
+        <img src="img/melio.webp" class="img-fluid" alt="">
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6 mb-5">
+        <div class="row mt-5 py-3">
+
+          <h2 class="text-secundary display-6 text-center text-danger font mb-5"
+          style="font-family: 'Times New Roman', Times, serif;color: rgb(21, 171, 231);">
+        DISEÑAMOS APP INTUITIVAS
+      </h2>
+
+      <span class="text-center text-danger mb-5 " style="font-family: Georgia, 'Times New Roman', Times, serif;">DIGITAL
+        CHERRY</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="row g-2">
+    <div class="col-sm-12 col-md-6 col-lg-6 mb-2" style="background-color:rgb(21, 171, 231);">
+      <div class="p-3 border text-center text-white">QUIENES SOMOS
+        <p>somos una empresa que se dedica a la elaboracion de software los cuales hacemos mas facil
+          la realizacion de proyectos con nustros software para el usuario/cliente</p>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-6 mb-2" style="background-color:rgb(21, 171, 231);">
+      <div class="p-3 border text-center text-white">SERVICIOS
+        <p>contamos con diversos servicios de instalacion de software y dotamos de tecnologia los sitios </p>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-6 mb-2" style="background-color: rgb(21, 171, 231);">
+      <div class="p-3 border text-center text-white">ADMIN CHERRY
+        <p>aplicativo en funcion para elaborar inventarios y practicas para la ayuda de usuario/cliente en cocina</p>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-6 mb-2" style="background-color:rgb(21, 171, 231);">
+      <div class="p-3 border text-center text-white">PROYECTOS
+        <p></p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active text-center">
+        <img src="img/melio.webp" class="d-block w-12" alt="..." class="img-fluid">
+      </div>
+      <div class="carousel-item">
+        <img src="img/human.jpeg" class="d-block w-100" alt="..." class="img-fluid">
+      </div>
+      <div class="carousel-item">
+        <img src="img/meliodas.webp" class="d-block w-12 " alt="..." class="img-fluid">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="col-sm-12 col-md-6 col-lg-6 mb-2">
+  </div>
+  </div>
+  <section id="politica de calidad">
+    <div class="container"></div>
+    <div class="row mt-3"></div>
+    <div class="col-sm-12 col-md-6 col-lg-6"></div>
+    <div class="col-sm-12 col-md-6 col-lg-6"></div>
+    <h3 class="text-center fs-4 display-5 text-white"> <span style="background-color:rgb(21, 171, 231);">POLITICA DE CALIDAD</span>
+    </h3>
+    <div class="row"></div>
+  </section>
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button text-white" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+          style="background-color:rgb(21, 171, 231);">
+          MISION
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Digital Cherry, tiene la misión de ser la empresa líder en el mercado de la tecnología por su competitividad y productividad de nuestros servicios
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
+          style="background-color:rgb(21, 171, 231);">
+          VISION
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Ser una empresa capaz de cumplir aquellos sueños que surgen a través de las necesidades por medio de la tecnología con las herramientas necesarias para satisfacer y cubrir aquellas necesidades.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"
+          style="background-color:rgb(21, 171, 231);">
+          VALORES
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Sinceridad, Lealtad, sinceridad, Honestidad, Competitividad, Colaboración, Integridad, Compromiso, Innovación 
+        </div>
+      </div>
+    </div>
+  </div>
+  <section id="baner"class="baner">
+  <div class="container"></div>
+  <div class="row banner">
+  <div class="col-sm-3 col-md-3 col-lg-3">
+  </div>
+  <div class="col-sm-9 col-md-9 col-lg-9 text-white"></div>
+</div>
+</section>
+
+  <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
